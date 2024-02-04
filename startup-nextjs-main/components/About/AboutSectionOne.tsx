@@ -22,7 +22,7 @@ const Join = () => {
                 Share experiences, access valuable resources, and build a strong network. Together, we thrive.
                 </p>
                 <a href="/about">
-                  <p className="rounded-text-orange">Join the Slack Community!</p>
+                  <p className="rounded-text-orange">Join the Facebook Community!</p>
                 </a>
               </div>
             </div>

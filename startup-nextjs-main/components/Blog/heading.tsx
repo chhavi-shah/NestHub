@@ -21,9 +21,9 @@ const Heading = () => {
                   <span className="text-[#E67220]">Today</span>
                 </h1>
                 <div className="dark:text-black md-8">
-                Are you new to Texas and looking for jobs? Lorem ipsum dolor sit amet consectetur. 
-                Fermentum ante viverra sagittis tortor. Eu vulputate quam quam lacus facilisis posuere odio facilisis. 
-                Euismod arcu sed consequat massa faucibus iaculis malesuada accumsan. Pellentesque quam turpis nibh libero.
+                Your pathway to a welcoming home begins here! Explore housing options tailored to support your journey in the 
+                Lone Star State, fitting your needs and budget. Let NestHub guide you in securing a home, ensuring a strong start 
+                to your new beginning.
                 </div>
               </div>
             </div>

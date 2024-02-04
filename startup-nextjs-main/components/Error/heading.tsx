@@ -21,9 +21,8 @@ const Heading = () => {
                   <span className="text-[#E67220]">Today</span>
                 </h1>
                 <div className="dark:text-black md-8">
-                Lorem ipsum dolor sit amet consectetur. Fermentum ante viverra sagittis tortor. 
-                Eu vulputate quam quam lacus facilisis posuere odio facilisis. Euismod arcu sed consequat massa faucibus 
-                iaculis malesuada accumsan. Pellentesque quam turpis nibh libero.
+                Discover Affordable Food Solutions with NestHub! Explore cost-effective dining options. 
+                Start your experience with NestHub and unlock a comprehensive guide to accessible and affordable food resources. 
                 </div>
               </div>
             </div>
