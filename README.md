@@ -12,7 +12,7 @@
 <br />
 <div align="center">
   <a href=https://github.com/ConverseScholar/hackharmony>
-    <img src="images/logoo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo/nesthub-logo.svg" alt="Logo" width="80" height="80">
   </a>
 
 
