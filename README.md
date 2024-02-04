@@ -69,7 +69,7 @@
 </a>
 
 <a href=https://www.figma.com/file/1EahrY3LVl27XMOZE8oTdQ/NestHub?type=design&node-id=12-1697&mode=design&t=Umx7xEdxUfFXz3QK-0>
-  <div>Our Figma designs</div>
+ Our Figma designs
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
