@@ -1274,7 +1274,7 @@ packages:
       serve-static: 1.13.2
       server-destroy: 1.0.1
       socket.io: 4.5.4
-      ua-parser-js: 1.0.2
+      ua-parser-js: ">=1.0.33"
       yargs: 17.6.2
     transitivePeerDependencies:
       - bufferutil
