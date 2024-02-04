@@ -1,0 +1,118 @@
+"use client";
+import { useState } from "react";
+import SectionTitle from "../Common/SectionTitle";
+
+
+const Table = () => {
+  return (
+    <>
+    <section id="features" className="bg-white dark:text-black py-16 md:py-20 lg:py-28">
+        <div className="container dark:text-black">
+          <SectionTitle
+            title="Food Locator "
+            paragraph=""
+            center
+          />
+        </div>
+        <div className="grid grid-cols-5 gap-4 m-5">
+        <div className=" h-64 items-center text-center flex flex-col justify-center">
+            <div className="rect-text-blue md-4">
+                Type
+            </div>
+            <div className="rect-text-grey md-4">
+            Grocery Stores
+            </div>
+            <div className="rect-text-grey md-4">
+            Food Banks
+            </div>
+            <div className="rect-text-grey md-4">
+            Food Banks
+            </div>
+        </div>
+        <div className="h-64 items-center text-center flex flex-col justify-center">
+            <div className="rect-text-blue md-4">
+                Name
+            </div>
+            <div className="rect-text-grey md-4">
+            Trader Joe’s
+            </div>
+            <div className="rect-text-grey md-4">
+            Central Texas Food Bank
+            </div>
+            <div className="rect-text-grey md-4">
+            Feeding Texas
+            </div>
+        </div>
+        <div className="h-64 items-center text-center flex flex-col justify-center">
+            <div className="rect-text-blue md-4">
+                City
+            </div>
+            <div className="rect-text-grey md-4">
+                Austin
+            </div>
+            <div className="rect-text-grey md-4">
+                Austin
+            </div>
+            <div className="rect-text-grey md-4">
+                Austin
+            </div>
+        </div>
+        <div className=" h-64 items-center text-center flex flex-col justify-center">
+            <div className="rect-text-blue md-4">
+                Address
+            </div>
+            <div className="rect-text-grey md-4">
+            211 Walter Seaholm Dr Ste 100
+            </div>
+            <div className="rect-text-grey md-4">
+            123 N Lee Rd
+            </div>
+            <div className="rect-text-grey md-4">
+            2826 Samson St
+            </div>
+        </div>
+        <div className="h-64 items-center text-center flex flex-col justify-center">
+            <div className="rect-text-blue md-4">
+                Phone Number
+            </div>
+            <div className="rect-text-grey md-4">
+            (737) 287 - 9519
+            </div>
+            <div className="rect-text-grey md-4">
+            (737) 222 - 4591
+            </div>
+            <div className="rect-text-grey md-4">
+            (737) 222 - 4591
+            </div>
+        </div>
+        </div>
+      </section>
+      <style jsx>{`
+       
+        .rect-text-blue {
+          display: inline-block;
+          padding: 10px 20px; /* Adjust padding for spacing */
+          background-color: #3D6FAA;
+          margin-right: 10px;
+          color: white; /* Adjust text color */
+          text-align: center;
+          width: 200px;
+          margin-bottom: 20px;
+        }
+        .rect-text-grey {
+          display: inline-block;
+          padding: 10px 20px; /* Adjust padding for spacing */
+          background-color: #EFEDED;
+          color: black;
+          width: 200px;
+          margin-right: 10px;
+          color: #575757; /* Adjust text color */
+          margin-bottom: 15px;
+        }
+       
+    `}</style>
+    </>
+  );
+};
+
+export default Table;

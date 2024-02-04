@@ -1,25 +1,21 @@
-import Breadcrumb from "@/components/Common/Breadcrumb";
-import Contact from "@/components/Contact";
+import Hero from "@/components/Contact/hero";
+import TellUs from "@/components/Contact/index";
+import Join from "@/components/About/AboutSectionOne";
+import ScrollUp from "@/components/Common/ScrollUp";
 
-import { Metadata } from "next";
+// export const metadata: Metadata = {
+//   title: "Free Next.js Template for Startup and SaaS",
+//   description: "This is Home for Startup Nextjs Template",
+//   // other metadata
+// };
 
-export const metadata: Metadata = {
-  title: "Contact Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Contact Page for Startup Nextjs Template",
-  // other metadata
-};
-
-const ContactPage = () => {
+export default function Contact() {
   return (
     <>
-      <Breadcrumb
-        pageName="Contact Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
-      />
-
-      <Contact />
+      <ScrollUp />
+      <Hero />
+      <TellUs />
+      <Join />
     </>
   );
-};
-
-export default ContactPage;
+}

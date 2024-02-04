@@ -13,12 +13,12 @@ const menuData: Menu[] = [
     path: "/contact",
     newTab: false,
   },
-  {
-    id: 3,
-    title: "Communities",
-    path: "/about",
-    newTab: false,
-  },
+  // {
+  //   id: 3,
+  //   title: "Communities",
+  //   path: "/about",
+  //   newTab: false,
+  // },
   // {
   //   id: 33,
   //   title: "Blog",
@@ -39,7 +39,7 @@ const menuData: Menu[] = [
       {
         id: 42,
         title: "Housing",
-        path: "/contact",
+        path: "/blog",
         newTab: false,
       },
       // {
@@ -51,7 +51,7 @@ const menuData: Menu[] = [
       {
         id: 44,
         title: "Pantries",
-        path: "/blog-sidebar",
+        path: "/error",
         newTab: false,
       },
       // {

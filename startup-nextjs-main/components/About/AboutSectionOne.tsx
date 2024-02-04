@@ -1,78 +1,49 @@
-import Image from "next/image";
-import SectionTitle from "../Common/SectionTitle";
+"use client";
+import Link from "next/link";
 
-const checkIcon = (
-  <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
-    <path d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z" />
-  </svg>
-);
-
-const AboutSectionOne = () => {
-  const List = ({ text }) => (
-    <p className="mb-5 flex items-center text-lg font-medium text-body-color">
-      <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
-        {checkIcon}
-      </span>
-      {text}
-    </p>
-  );
-
+const Join = () => {
   return (
-    <section id="about" className="pt-16 md:pt-20 lg:pt-28">
-      <div className="container">
-        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
-          <div className="-mx-4 flex flex-wrap items-center">
-            <div className="w-full px-4 lg:w-1/2">
-              <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
-                mb="44px"
-              />
-
+    <>
+      <section
+        className="relative z-10 overflow-hidden bg-[#3D6FAA] pb-16 pt-[40px] md:pb-[40px] md:pt-[60px] xl:pb-[80px] xl:pt-[100px] 2xl:pb-[120px] 2xl:pt-[130px]"
+        >
+        <div className="container">
+          <div className="-mx-4 flex flex-wrap">
+            <div className="w-full px-4 flex justify-end "> 
               <div
-                className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
-                data-wow-delay=".15s"
-              >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
-                  </div>
-
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="w-full px-4 lg:w-1/2">
-              <div
-                className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
+                className="wow fadeInUp mx-auto max-w-[800px] text-center"
                 data-wow-delay=".2s"
               >
-                <Image
-                  src="/images/about/about-image.svg"
-                  alt="about-image"
-                  fill
-                  className="drop-shadow-three mx-auto max-w-full dark:hidden dark:drop-shadow-none lg:mr-0"
-                />
-                <Image
-                  src="/images/about/about-image-dark.svg"
-                  alt="about-image"
-                  fill
-                  className="drop-shadow-three mx-auto hidden max-w-full dark:block dark:drop-shadow-none lg:mr-0"
-                />
+                <h1 className="mb-5 text-3xl font-bold leading-tight text-white dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                Join Our Community Today!
+                </h1>
+                <p className="dark:text-white m-0 mb-12 text-base !leading-relaxed sm:text-lg md:text-xl">
+                Connect with like-minded individuals through Slack. 
+                Share experiences, access valuable resources, and build a strong network. Together, we thrive.
+                </p>
+                <a href="/about">
+                  <p className="rounded-text-orange">Join the Slack Community!</p>
+                </a>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <style jsx>{`
+       
+       .rounded-text-orange {
+         display: inline-block;
+         padding: 20px 40px; /* Adjust padding for spacing */
+         background-color: #E67220;
+         border-radius: 20px; /* Adjust border-radius for rounded edges */
+         color: white; /* Adjust text color */
+         font-weight: bold; /* Adjust font weight */
+         font-size: 18px;
+       }
+     `}</style>
+    </>
   );
 };
 
-export default AboutSectionOne;
+export default Join;
+
