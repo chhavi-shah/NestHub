@@ -64,6 +64,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+<a href=https://github.com/ConverseScholar/hackharmony>
+  <img src="startup-nextjs-main/public/images/nesthub.png" alt="Logo" width="80" height="80">
+</a>
+
 [![Product Name Screen Shot][product-screenshot]](src="startup-nextjs-main/public/images/nesthub.png")
 
 
