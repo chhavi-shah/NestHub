@@ -68,6 +68,10 @@
   <img src="startup-nextjs-main/public/images/nesthub.png" alt="Logo" width="100%" height="50%">
 </a>
 
+<a href=https://www.figma.com/file/1EahrY3LVl27XMOZE8oTdQ/NestHub?type=design&node-id=12-1697&mode=design&t=Umx7xEdxUfFXz3QK-0>
+  <div>Our Figma designs</div>
+</a>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
